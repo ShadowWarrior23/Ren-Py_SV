@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 95, in script
+    jump PGS
+ScriptError: could not find label 'PGS'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 95, in script
+    jump PGS
+  File "C:\Users\Bence\Downloads\Új mappa\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Bence\Downloads\Új mappa\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'PGS'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.2.24090902
+Stardew_Valley 1.0
+Sat Nov  9 16:17:37 2024
